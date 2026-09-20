@@ -1,0 +1,622 @@
+{
+  "sourceRepository": "https://github.com/VictorOluwaseun/ordira-server",
+  "sourceRevision": "259bbb0d53abe1fdfb08c6ca3ffa8eed8c0fe5bc",
+  "purpose": "AI source review snapshot; not standalone",
+  "groups": {
+    "01 \u2014 Overview and architecture": [
+      {
+        "path": "docs/CUSTOMER_AI_TECHNICAL_DESIGN.md",
+        "sha256": "e3c32ee15e9d91df159dcba5c51e1aa63f004cc614ad3a54aa7e569421ad11fc",
+        "bytes": 75401
+      },
+      {
+        "path": "docs/WHATSAPP_CONVERSATIONAL_FOLLOWUPS.md",
+        "sha256": "212b5ae255fccde9501935808da20d4ed27f0aaa135bb1be895108df00b6a466",
+        "bytes": 6447
+      },
+      {
+        "path": "docs/WHATSAPP_INTENT_INTERPRETER.md",
+        "sha256": "d2afc1a2f3a457adc550b4118f3e1799c86a676e36d737e6c3d11124b0737124",
+        "bytes": 3508
+      },
+      {
+        "path": "docs/WHATSAPP_ORDER_MODIFICATIONS.md",
+        "sha256": "3e3bcc24c1df89cf14d348374b3f0d4333c6fdb8df34368debee2aedb2a0f30a",
+        "bytes": 5879
+      },
+      {
+        "path": "docs/WHATSAPP_STANDARD_FLOW_ACCEPTANCE.md",
+        "sha256": "f440bcd1b26112f84647edf3068cfb89f3ea49ba08e8f086dcb81521f454aeb0",
+        "bytes": 6630
+      }
+    ],
+    "02 \u2014 AI interpretation and runtime": [
+      {
+        "path": "src/config/customer-ai.config.ts",
+        "sha256": "699b827638317f99b2eb905cb5fa2d78fce47852d0d13184fc0990ed315a45b0",
+        "bytes": 5626
+      },
+      {
+        "path": "src/customer-ai-index-migration.ts",
+        "sha256": "118ea45a63c49f3786e8e8fe812f7a0c9a65185ca6c22f6d06dfdffe880e95ad",
+        "bytes": 1420
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-index-migration.spec.ts",
+        "sha256": "7cd0bf2099ed62f1c01383dc1789bb581398e7a25203527ca9016c88e8f6ef3e",
+        "bytes": 4792
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-index-migration.ts",
+        "sha256": "4473a9734c23760c251e816f8ccc590d77596a491962db626f3e5f2a646e981e",
+        "bytes": 7375
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-intent.service.spec.ts",
+        "sha256": "fb27ebd6e12650939b8cf2344b5ea0473360d93670e95e15f265bb44c702c7b2",
+        "bytes": 18204
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-intent.service.ts",
+        "sha256": "3e51d840e4dd41c5db1c56ac50b056ea72da3c333f3dd5e9d089c3880e8a0ac0",
+        "bytes": 29504
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-orchestrator.service.spec.ts",
+        "sha256": "7ed5e2094745b79bc66434584b1c54ee884221755342b6fd4534eea5c248a654",
+        "bytes": 15090
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-orchestrator.service.ts",
+        "sha256": "0b25ec6da88b8f009a7f6a13369826eee13563039bde1fedd70d867b2e8bc2fc",
+        "bytes": 26251
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-provider-result.validator.spec.ts",
+        "sha256": "ff71c8d6c6b06817ae5792a13674ed6924314f63fcddeef5b6e833f180877c49",
+        "bytes": 1327
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-provider-result.validator.ts",
+        "sha256": "898e3f839d068b5e15d83cf4de5e24c8f5807457257495b02182f9048a1fea86",
+        "bytes": 5989
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-queue.constants.ts",
+        "sha256": "4d36f0c1fe98f87fc5de259cea67484cc200f02f9d5511f10007e30b4803c436",
+        "bytes": 899
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-queue.service.spec.ts",
+        "sha256": "1979cbce5f6c81b54d15b97ec90431342abe89d3b522efd50b2af75a260fc0a4",
+        "bytes": 2731
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-queue.service.ts",
+        "sha256": "1a5d549c81c383d36cc90207012ecfe7631e567bbee6938da79cea7f3845b9fe",
+        "bytes": 6925
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-read-tools.service.spec.ts",
+        "sha256": "b020bd73d565fd0e51e1728383d4dcb54cbd0f467b43891c3018ef798dbcd103",
+        "bytes": 3060
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-read-tools.service.ts",
+        "sha256": "6c202fe06e4c3855d9d175fd31153b41e9ffdd41085c8a55742c393bf14bcb90",
+        "bytes": 8953
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-response-compiler.service.spec.ts",
+        "sha256": "21ced1c841b55d0de745a1b95cf21bee102221bdf2bec13a93384372169139cf",
+        "bytes": 1923
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-response-compiler.service.ts",
+        "sha256": "0c1a347754b263b012fd8c8a8ddf0e8edcbc5c69585e5e0eeaa324c8c3ca20aa",
+        "bytes": 4895
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-routing.service.spec.ts",
+        "sha256": "ccdbf4569599071f184ab874b45191a6800e40b887210329572c0ff7c2f0b6bc",
+        "bytes": 2075
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-routing.service.ts",
+        "sha256": "c981acecc80a8e22ad3aedc3a7eb4d1c2b4972902cc4c81154280872c4661753",
+        "bytes": 2657
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-shadow.service.spec.ts",
+        "sha256": "c7969fe40f9db1dc82b33f3f785d0de19f152aaa345eb7cbb3fa64f22ca3085a",
+        "bytes": 2821
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-shadow.service.ts",
+        "sha256": "e4e1d9cd297d81003c339776d5171046d4fb657e351b94c54fe1946c214d8290",
+        "bytes": 4197
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-source-revision.spec.ts",
+        "sha256": "3fb14fe5b6298220c41af0dac1f03ab4bd7857afde6794326031119d6b547622",
+        "bytes": 2030
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-source-revision.ts",
+        "sha256": "8045eb11588c80c93be51db77090f8c7c4a1ea70c0414ce7c76d136e9da1db8d",
+        "bytes": 1782
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-worker.module.ts",
+        "sha256": "c680ea6e676cfaa78dc66452dc708879d2888ff4f36ed290b6781d4887d951bc",
+        "bytes": 357
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai.module.ts",
+        "sha256": "d322692271f9508506f11785b0304d275706cab32eb53cbf810143b8fcca7267",
+        "bytes": 5755
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai.processor.ts",
+        "sha256": "ba6805ba5598aa2f396255dd5a17fa232a9fe56569ec4cb5dc86c2cdfefd6dcd",
+        "bytes": 4001
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai.repository.spec.ts",
+        "sha256": "f772d6143309afa5769701458c1a44c4ee19c04b53fc5b43991bca80dfe456bb",
+        "bytes": 9670
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai.repository.ts",
+        "sha256": "ef823eb73619c8b44da2ea20c41daeca83cfa3513d034dce27abe4d74aaaec3f",
+        "bytes": 14822
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai.types.ts",
+        "sha256": "9559eeefda55cc5dbb4f86ae6750f8d1eaf08ce9ec69d9ddc4fe38c41061e716",
+        "bytes": 5179
+      },
+      {
+        "path": "src/modules/customer-ai/providers/fake-customer-ai.provider.ts",
+        "sha256": "e092f3fdad0dd347f8f051ed4581d430b01026e94ec1849042d0d0d8022b89c0",
+        "bytes": 2081
+      },
+      {
+        "path": "src/modules/customer-ai/providers/openai-customer-ai.provider.spec.ts",
+        "sha256": "27a2a65cabfd022023ae9b9461b71bf0e75fd65f63008be8531726fa4058099a",
+        "bytes": 10795
+      },
+      {
+        "path": "src/modules/customer-ai/providers/openai-customer-ai.provider.ts",
+        "sha256": "65668360b22f077a91a05e790fd55ce0fb1e0e6072332d8a7748d8a16e0a6ea7",
+        "bytes": 19218
+      },
+      {
+        "path": "src/modules/customer-ai/schemas/customer-ai-run.schema.ts",
+        "sha256": "8b7db8ba1e496fa10656311005acdb146d7a77f05f86603d13e0c922b7b2468e",
+        "bytes": 7537
+      },
+      {
+        "path": "src/modules/customer-ai/schemas/customer-ai-session.schema.ts",
+        "sha256": "2ac176a1e3d1cf4a22c76b2c01a2263962fb24990e2f7d245af8dab0902c524b",
+        "bytes": 2901
+      },
+      {
+        "path": "src/modules/customer-ai/schemas/customer-ai-tool-execution.schema.ts",
+        "sha256": "a880be71a399dedadc54537e3b9e7634ead20853143ec0a0a8f2a2e1d25b7ec6",
+        "bytes": 3089
+      },
+      {
+        "path": "src/modules/customer-ai/schemas/customer-ai-ttl-indexes.spec.ts",
+        "sha256": "e6a578b78a21db398b4386fa139aa9032154efba935b575085aaf48a020b3c6f",
+        "bytes": 1167
+      }
+    ],
+    "03 \u2014 Safety, spending and evidence": [
+      {
+        "path": "src/customer-ai-runtime-safety-report.ts",
+        "sha256": "01548deb3281d7bc79549d80d587b7af315a4f4d546aeab86233de5032d25bb4",
+        "bytes": 1408
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-evaluation-evidence.repository.spec.ts",
+        "sha256": "8d5df1e6a95b9933ba5ef7a7222f1ebbe1682077b0ce45d4dbc24b345712005b",
+        "bytes": 3118
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-evaluation-evidence.repository.ts",
+        "sha256": "050ee984b4dbabe4fbcfe84ce3a822e89fcdd48d4c379653f66b063302009ee4",
+        "bytes": 3673
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-evaluation-evidence.service.spec.ts",
+        "sha256": "2fa02fc29620736e3d9b307f13feb7bee83c33f993227d3073c98379e670b207",
+        "bytes": 9300
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-evaluation-evidence.service.ts",
+        "sha256": "348352e152794ba5185caae1f528a314ca87eb96d5b540f23667db83b469f23f",
+        "bytes": 12661
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-metrics.service.spec.ts",
+        "sha256": "caec77488c49de16febe84dfcb9129cd17bacdb0eb08f92420aedc7bfa0c602c",
+        "bytes": 714
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-metrics.service.ts",
+        "sha256": "5a5d494c781d8c06c1c4a6fb0b2092b7c209f5415c994cb97a2bc87f8764a568",
+        "bytes": 1747
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-policy-evidence.service.spec.ts",
+        "sha256": "cdf4eb1c97f39f7cc75b860724cb1692c883ee1cbc3e8dffb6f1ef66ca661ffe",
+        "bytes": 5877
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-policy-evidence.service.ts",
+        "sha256": "1c43a1ce1920d42ad9302090709669918fff897f96a959f559c5da4b135b36f6",
+        "bytes": 5271
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-policy.service.spec.ts",
+        "sha256": "f43d84e65404ac0affbcee315ed3f16e5936567d72fbb613406fe411de000c31",
+        "bytes": 2173
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-policy.service.ts",
+        "sha256": "511b7514f2b29e86b64332c33b67211fa7a7c5fdd87b6430c9518d2f951a872e",
+        "bytes": 2231
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-promotion-readiness.service.spec.ts",
+        "sha256": "21aedc8f0edefd0274aecdb0e763f5d76b0c79f4f1f607ba6e18e018a4575931",
+        "bytes": 11526
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-promotion-readiness.service.ts",
+        "sha256": "536172a815bd6880c7ba46b133854660d57667aa2d9bda97e3e8d937ad053cea",
+        "bytes": 16533
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-provider-health.service.spec.ts",
+        "sha256": "bf9fd204f2b80f40f924d05f23c64daad71281af83d4458f6322ae0e3d850937",
+        "bytes": 4424
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-provider-health.service.ts",
+        "sha256": "66877ef442cb0238b327eaa31335a002b55a34a0089400639b58be3b39b20f06",
+        "bytes": 9110
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-runtime-safety-environment.spec.ts",
+        "sha256": "0e5cd4f5d1eaca78606162c84eb8fd38184736af4206b98a2abc22e71de25fa1",
+        "bytes": 2960
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-runtime-safety-environment.ts",
+        "sha256": "a30c7c7cceccc40b64482cac0eb1313f932701c591e9b12a7b561e8ee29c7d13",
+        "bytes": 2228
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-runtime-safety-evidence.spec.ts",
+        "sha256": "0b3a3cf5665f12ca21983c3bb752956791166e6763cd9d868c0ea8f9860fa749",
+        "bytes": 4281
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-runtime-safety-evidence.ts",
+        "sha256": "d5db307db9b5b78072a0185b3032166cf8b98e058ccca67be0c9f4ca599877a5",
+        "bytes": 5566
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-shadow-promotion-gate.service.spec.ts",
+        "sha256": "cccf17bb959ea27e24d2a749a167db53af7d6f3e31eb04988ef4b2540291da5f",
+        "bytes": 5103
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-shadow-promotion-gate.service.ts",
+        "sha256": "aab2733a1b5e0b3469d4330adb09bc02f9972473ddf5d86ed8b1868c6236936f",
+        "bytes": 11201
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-spend-guard.service.spec.ts",
+        "sha256": "d7a38ad86bfed88507efccf3f350fbde437053ed184a41c66849e65295f9916a",
+        "bytes": 3649
+      },
+      {
+        "path": "src/modules/customer-ai/customer-ai-spend-guard.service.ts",
+        "sha256": "4b5ddca8147d9a255526ce3467b6741351ba069549d6a328f81921223db41363",
+        "bytes": 5943
+      },
+      {
+        "path": "src/modules/customer-ai/schemas/customer-ai-evaluation-evidence.schema.ts",
+        "sha256": "34e424923e60ed5a67c8dec6f3f9bc64fec4bcd97fc64a9f1d2674bf715fbe2a",
+        "bytes": 6658
+      }
+    ],
+    "04 \u2014 WhatsApp commands and conversation flows": [
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-budget-combinations.util.spec.ts",
+        "sha256": "b40659f5fc21d6a7b2369cc7c0ad0c109f803f7eebe004e320d5b5c65377e113",
+        "bytes": 4519
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-budget-combinations.util.ts",
+        "sha256": "365172c29acca784537bd601876564a7bfd94b259d58951fc334d400e6ba9f58",
+        "bytes": 6432
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-budget-modifiers.util.spec.ts",
+        "sha256": "fff6522e01542560c701d40df8ef5c09358edb6a02ded6f7c21d421cb28dcf49",
+        "bytes": 3087
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-budget-modifiers.util.ts",
+        "sha256": "9051043d0e07aad72c705cd8759d4cc95c42f402a1b04426ec2667ae3968850d",
+        "bytes": 4904
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-budget-quote.service.spec.ts",
+        "sha256": "4e0ec5280d18e695dd33be6c89f6af9f1b835fa306b38d9b227dfe64299bcb5d",
+        "bytes": 3514
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-budget-quote.service.ts",
+        "sha256": "07af8800d404f0a28532aa22e857ef64647aa25f259a1c1429926d9b882f6bac",
+        "bytes": 3745
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-budget-suggestions.service.spec.ts",
+        "sha256": "b24007aea57d3bac30ff12e1bc0ad010042c74c4e69e9067efb77a46e6375b6c",
+        "bytes": 10525
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-budget-suggestions.service.ts",
+        "sha256": "c1ddecadc68c10854fb77840d6e0b8ab9c06843f7e3f4dc06322f32dc2784fd5",
+        "bytes": 8481
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-budget.util.spec.ts",
+        "sha256": "daf9e2ea180bb346f0abd12343cdd890bdddec7d819166f4d3d1ac9eb90644e0",
+        "bytes": 2027
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-budget.util.ts",
+        "sha256": "be1fe6f5004795c879080cb73f09b73bc379065bc8fa312a9553dfc66c706d3d",
+        "bytes": 2836
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-checkout-flow-action-registry.ts",
+        "sha256": "49fcc1c99fcf37700d52b349a8b46bc74f5851b6491d607f8bf65362724ce834",
+        "bytes": 779
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-checkout-flow.service.spec.ts",
+        "sha256": "1c81a1811ea8f21740cdd86a350cf86744d8274bf8161e98881547d0ba730461",
+        "bytes": 46874
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-checkout-flow.service.ts",
+        "sha256": "619d5e0bc71d8c4aeb9eb3a3f1254e192e49dcba404b9b27e7984b60f1651cf3",
+        "bytes": 54857
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-checkout-flow.util.ts",
+        "sha256": "f9206e38013e449e20ebcacb79be8b8427148b675b94cf00b79cb4fa2cceca2f",
+        "bytes": 2226
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-conversations.service.spec.ts",
+        "sha256": "e3574e89e842971fde6c1dff2bdde4abad848d095f916f2fe2968c3b9171d441",
+        "bytes": 57881
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-conversations.service.ts",
+        "sha256": "0fa83acd5b8bb4093d80d719e92bd0a0432fbe6aac4a40e053dd85e1cf461e05",
+        "bytes": 57612
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-followup.util.spec.ts",
+        "sha256": "0ee10df3df9306032b4cd384638da12153632755b4d705eb42b65878a822bcf2",
+        "bytes": 4311
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-followup.util.ts",
+        "sha256": "f816e830797fc86bca7c332a27d10260b801de1ab516d3e321fcd887b69f7fd6",
+        "bytes": 10241
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-language.util.spec.ts",
+        "sha256": "b0d63a8e4c73ced3d2ccb5da56229f534c02fb9b8e19f20025cd72845e33c689",
+        "bytes": 6032
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-language.util.ts",
+        "sha256": "87938edf17d2e5d2e6d76f657873747c78814bca2174a15667374660366cb84c",
+        "bytes": 8966
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-question.util.spec.ts",
+        "sha256": "caf66cb282d377f1a033da39aee426db52f8bb7d9c31a624a760e910cf53fb78",
+        "bytes": 1731
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-question.util.ts",
+        "sha256": "790a5186b89a0296c3c09e6186030903c58ff925e4a57610c3b71ab0a5efdf3d",
+        "bytes": 2128
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-standard-flow-action-registry.ts",
+        "sha256": "7ec67e506d90d4bfa461687f98f1b4a9d6c5e404b84ba8c54f0403c6775cbc9a",
+        "bytes": 4682
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-standard-flow-copy.registry.spec.ts",
+        "sha256": "bea422d42b5c4082f66e72a0cdf25647bd67345d96dad6b8461ace1c66472179",
+        "bytes": 1789
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-standard-flow-copy.registry.ts",
+        "sha256": "0e28f93ae6dbc2c4eb5349658e976208be3cdc466d8785d79eb06c3407dcab06",
+        "bytes": 8136
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-standard-flow.service.spec.ts",
+        "sha256": "5cdb5a7844af29aecb787f5a61040161993a393150b46ae036ee5b3e981e57a5",
+        "bytes": 105437
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-standard-flow.service.ts",
+        "sha256": "df3e73e1163f6c892b8f07721937176e685618300f9ae18f743dfb3a32ca3138",
+        "bytes": 121162
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-text-action.util.spec.ts",
+        "sha256": "56734cf77640c8ac7fe8af01aa075a0d3ac8bc422b0532071691a2ff6ab70e80",
+        "bytes": 9962
+      },
+      {
+        "path": "src/modules/whatsapp-conversations/whatsapp-text-action.util.ts",
+        "sha256": "6a523752c1bb71bf820f70aeff29c634f76a616f155b1cdbde6953f698b7eb9e",
+        "bytes": 12677
+      }
+    ],
+    "05 \u2014 Evaluations and scenarios": [
+      {
+        "path": "src/customer-ai-eval.ts",
+        "sha256": "6feff8e1ee2bcce9deb256e2ee72892bab16ca660964e58b8d71c06a268b2019",
+        "bytes": 926
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-eval-budget.spec.ts",
+        "sha256": "6cffdb56fe3893c1308828663112e1d2e44ee7c5c910fcbe4a1ec9ca03865b90",
+        "bytes": 1399
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-eval-budget.ts",
+        "sha256": "60f9455740eb77fe3ac399c4997646a22a2c1b5243afd3c57d474fa21f623f6b",
+        "bytes": 2013
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-eval-command.spec.ts",
+        "sha256": "f9f513365a2fd71556eb56ffd4cc2bdeac19e371c0460b2d249fe451fa374b5c",
+        "bytes": 5759
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-eval-command.ts",
+        "sha256": "44a82dadb44ff5a8b42851b5b12ec6f05cb431307511a19087c2e21370a77d35",
+        "bytes": 25414
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-eval-grader-names.ts",
+        "sha256": "b0a83dce7536f9f6e9d1f58d395acee38212583463c318f1d684323d14cb26f7",
+        "bytes": 3297
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-eval-graders.spec.ts",
+        "sha256": "fed3cf815579651c0a1681aa9ec78fcb31c365f59cbdf0adca4383946902fd6d",
+        "bytes": 9465
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-eval-graders.ts",
+        "sha256": "642a917291d6a0d3161ec17c2c10b4caabf1d43c4a707ca091a88622aedf39e5",
+        "bytes": 14727
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-eval-runner.spec.ts",
+        "sha256": "d85cd786abee49748b02b472b85758be1abb4b667db534684be6f06d0d2f5302",
+        "bytes": 2718
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-eval-runner.ts",
+        "sha256": "e4e43d9d7a53a6ea5f563f6c1629c81eab4e1aea29a9ed3c467452ef21eee395",
+        "bytes": 7298
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-eval-scenario-runner.ts",
+        "sha256": "3ea3e5e5f4baf9a31d0b2adcdd561e4c2ef116b2661a7e9d9db000585090c748",
+        "bytes": 25005
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-eval-tool-contract.spec.ts",
+        "sha256": "6dce1f458ed6cbabbeff12a894b85eddcc5560f5e8f9a06b30d589f2cce1c7ec",
+        "bytes": 955
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-eval-tool-contract.ts",
+        "sha256": "6a0e3a6e82b8aac1ba81a8247ed0ceed6ee349e93aad4417575d21174b841170",
+        "bytes": 2547
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-model-comparison.spec.ts",
+        "sha256": "691493f5159cd113056691f68e1f5791512a602b4b84ea9ad3346994ce1201d9",
+        "bytes": 3559
+      },
+      {
+        "path": "src/modules/customer-ai/evals/customer-ai-model-comparison.ts",
+        "sha256": "3795c59a15fa7b940861b8479fba1b75d1c00a0ab5f764ecef7472e40e19f9ca",
+        "bytes": 7403
+      },
+      {
+        "path": "test/customer-ai-runtime-safety.e2e-spec.ts",
+        "sha256": "dd40ee80d74ee9a1c50dac93077ee02f88b43c2331a1986239e5069cc8c30592",
+        "bytes": 23099
+      },
+      {
+        "path": "test/fixtures/customer-ai/evals/adversarial-money-and-facts.jsonl",
+        "sha256": "c2bd95f196efbb45e02b79a455ba24eb8102c8acdaca5933db294451a23b9e17",
+        "bytes": 5165
+      },
+      {
+        "path": "test/fixtures/customer-ai/evals/adversarial-prompt-and-scope.jsonl",
+        "sha256": "0df1e0cc4b6e21a32a9f00c7083fe3dfe6509b953c7e84b326e4428d965f7400",
+        "bytes": 4733
+      },
+      {
+        "path": "test/fixtures/customer-ai/evals/checkout-drafts.jsonl",
+        "sha256": "047ee82051e2c9e12cc11b6f3496eeef12d24374df83ebd595580aeb8dabcf62",
+        "bytes": 2541
+      },
+      {
+        "path": "test/fixtures/customer-ai/evals/discovery.jsonl",
+        "sha256": "ab33da4a9236ff1b0c2ba0478999f1bfa44c49e216436efaff21001bf50d02cc",
+        "bytes": 3426
+      },
+      {
+        "path": "test/fixtures/customer-ai/evals/failures-and-handoffs.jsonl",
+        "sha256": "ad108098d9b61445cd9db61a0147d95d0eb2a9cd1f255c63efbe0ce42bb26756",
+        "bytes": 2124
+      },
+      {
+        "path": "test/fixtures/customer-ai/evals/language-variants-extended.jsonl",
+        "sha256": "ca6f28de1def1c112410f6476f424d0c522e4dd9d628374bfdc8b64db91ac777",
+        "bytes": 4820
+      },
+      {
+        "path": "test/fixtures/customer-ai/evals/menus-and-modifiers.jsonl",
+        "sha256": "8cdf7409a6a676776da5420132a5e6c7df1361353a127fe52a62eed3121acba4",
+        "bytes": 2966
+      },
+      {
+        "path": "test/fixtures/customer-ai/evals/pidgin-and-typos.jsonl",
+        "sha256": "5d5ad5ca005f4897bdf693220e642a90ebde883d09aaccba843741853c89e275",
+        "bytes": 2304
+      },
+      {
+        "path": "test/fixtures/customer-ai/evals/reliability-and-concurrency-extended.jsonl",
+        "sha256": "d75abc18b5058d135e67f5a783421ed5a6500be2813e758f181962566c18faf7",
+        "bytes": 4238
+      },
+      {
+        "path": "test/fixtures/customer-ai/evals/routing-and-ambiguity-extended.jsonl",
+        "sha256": "6c542022600fa1ce04776bb3499dacec0e79664a18cf5b55ebe0ab38f9f03476",
+        "bytes": 4440
+      },
+      {
+        "path": "test/fixtures/customer-ai/evals/safety-and-scope.jsonl",
+        "sha256": "bf93a3c1391c6e9473fc1ab687025392534f909654ffc78ba369d6f7e0213720",
+        "bytes": 2811
+      }
+    ]
+  }
+}
